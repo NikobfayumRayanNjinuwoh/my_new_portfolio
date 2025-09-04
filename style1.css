@@ -1,0 +1,154 @@
+body{
+background: linear-gradient(to right, #050505, #000000);
+color: white;
+display: flex;
+flex-wrap: wrap;
+}
+h1{
+    color: brown;
+}
+h2{
+    color:rgb(233, 220, 220) ;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    color: rgb(185, 179, 179);;
+    font-size: 20px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: right;
+}
+p{
+    color: rgb(185, 179, 179);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align:justify left;
+    .tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+}
+.contianer{
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+.profile {
+    height: 2oo00px;
+    width: 200px;
+    border: 200px;
+    border-radius: 90%;
+    display: flex;
+text-align: center;
+}
+i{
+   height:auto;
+    width: 200px;
+    font-size:59px;
+    display:flex;
+    float: left;
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+fieldset{
+    border-radius: 3000px;
+    border-color: red;
+    height: 485px;
+    width: 40px;
+    background: linear-gradient(to right, #1d1b1b, #000000);
+color: white;
+
+}
+.navbar a{
+    text-align:center;
+    display: flex;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    color: rgb(115, 115, 117);
+    font-weight: bold;
+}
+.navbar a:hover{
+color: rgb(148, 143, 143);
+background: linear-gradient(to right, #000000, #000000);
+
+    
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background: linear-gradient(to right, #740202, #000000);
+    display: flex;
+    border-radius: 20px;
+}
+.navbar li{
+    float: left;
+    display: flex;
+}
+.box{
+    border: 20px;
+    padding: 40px;
+    display: block;
+    float: left;
+}
+.card:hover .child {
+  animation: pulse 1s ease;
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.5s ease;
+}
+.fade-up:is(.visible) {
+  opacity: 1;
+  transform: translateY(0);
+}
+button{
+    width: 100px;
+    border-radius: 12px;
+    height: 29px;
+    background-color: rgb(185, 179, 179);
+    border-color: #111830;
+    text-decoration-color: #111830;
+
+}
+
+#html{
+    border-radius: 12px;
+    background-color: #222029;
+    height: 100px;
+    width: 700px;
+    margin: 20px;
+border-color:red;
+
+}
+#css {
+    border-radius: 12px;
+    background-color: #222029;
+    position: left;
+     height: 100px;
+      width: 700px;
+    margin: 20px;
+border-color:red;
+
+}
+#js {
+    border-radius: 12px;
+    background-color: #222029;
+     height: 100px;
+      width: 700px;
+    margin: 20px;
+border-color:red;
+
+}
+#database {
+    border-radius: 12px;
+    background-color: #222029;
+     height: 100px;
+      width: 700px;
+    margin: 20px;
+border-color:red;
+}
+
